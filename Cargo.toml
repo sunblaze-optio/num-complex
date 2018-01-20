@@ -12,18 +12,10 @@ version = "0.1.41"
 readme = "README.md"
 
 [dependencies]
-
-[dependencies.num-traits]
-version = "0.1.39"
-
-[dependencies.rustc-serialize]
-optional = true
-version = "0.3.19"
-
-[dependencies.serde]
-optional = true
-version = ">= 0.7.0, < 0.9.0"
+serde = { git = "https://github.com/ekiden/serde" }
+num-traits = { path = "/sgx/third_party/num/traits" }
+sgx_tstd = { path = "/sgx//sgx_tstd" }
 
 [features]
-default = ["rustc-serialize"]
+default = []
 unstable = []

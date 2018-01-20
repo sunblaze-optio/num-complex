@@ -11,11 +11,11 @@
 //! Complex numbers.
 
 #![doc(html_root_url = "https://docs.rs/num-complex/0.1")]
+#![no_std]
 
 extern crate num_traits as traits;
-
-#[cfg(feature = "rustc-serialize")]
-extern crate rustc_serialize;
+#[macro_use]
+extern crate sgx_tstd as std;
 
 #[cfg(feature = "serde")]
 extern crate serde;
@@ -26,6 +26,7 @@ use std::fmt;
 use std::hash;
 use std::ops::{Add, Div, Mul, Neg, Sub, Rem};
 use std::str::FromStr;
+use std::string::String;
 
 use traits::{Zero, One, Num, Float};
 
