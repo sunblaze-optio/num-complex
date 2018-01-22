@@ -13,8 +13,8 @@ readme = "README.md"
 
 [dependencies]
 serde = { git = "https://github.com/ekiden/serde" }
-num-traits = { path = "/sgx/third_party/num/traits" }
-sgx_tstd = { path = "/sgx//sgx_tstd" }
+num-traits = { git = "https://github.com/ekiden/rust-sgx-sdk" }
+sgx_tstd = { git = "https://github.com/ekiden/rust-sgx-sdk" }
 
 [features]
 default = []
