@@ -12,7 +12,7 @@ version = "0.1.41"
 readme = "README.md"
 
 [dependencies]
-serde = { git = "https://github.com/ekiden/serde" }
+serde-sgx = { git = "https://github.com/ekiden/serde" }
 num-traits = { git = "https://github.com/ekiden/rust-sgx-sdk" }
 sgx_tstd = { git = "https://github.com/ekiden/rust-sgx-sdk" }
 
