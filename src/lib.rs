@@ -18,7 +18,7 @@ extern crate num_traits as traits;
 extern crate sgx_tstd as std;
 
 #[cfg(feature = "serde")]
-extern crate serde;
+extern crate serde_sgx as serde;
 
 use std::error::Error;
 use std::fmt;
