@@ -13,8 +13,8 @@ readme = "README.md"
 
 [dependencies]
 serde-sgx = { git = "https://github.com/sunblaze-optio/serde" }
-num-traits = { git = "https://github.com/ekiden/rust-sgx-sdk" }
-sgx_tstd = { git = "https://github.com/ekiden/rust-sgx-sdk" }
+num-traits = { git = "https://github.com/sunblaze-optio/rust-sgx-sdk" }
+sgx_tstd = { git = "https://github.com/sunblaze-optio/rust-sgx-sdk" }
 
 [features]
 default = []
